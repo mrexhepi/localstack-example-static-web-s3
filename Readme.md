@@ -1,6 +1,6 @@
 # Localstack example
 
-Local stack is a fully functional local cloud stack
+[Localstack](https://localstack.cloud/) is a fully functional local cloud stack
 Develop and test your cloud and serverless apps offline!
 
 ##
@@ -25,7 +25,7 @@ pip install localstack
 
 ## Usage
 
-This example is trying to bring solution to a Frontend application running into S3 bucket offline in our workspace
+This example is trying to bring solution to a Frontend application running into your "offline" S3 bucket  in our workspace
 
 
 s3-bucket-static-website script , creates and deploy your static website to your localstack S3 bucket.
