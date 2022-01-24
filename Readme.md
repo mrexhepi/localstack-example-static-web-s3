@@ -25,10 +25,9 @@ pip install localstack
 
 ## Usage
 
-This example is trying to bring solution to a Frontend application running into your "offline" S3 bucket  in our workspace
+ Frontend application to Localstack "offline" AWS S3 bucket 
 
-
-s3-bucket-static-website script , creates and deploy your static website to your localstack S3 bucket.
+s3-bucket-static-website script , creates and deploy your static website to  localstack S3 bucket.
 ```bash
 bash s3-bucket-static-website.sh 
   Creates a s3 bucket with web access with LocalStack

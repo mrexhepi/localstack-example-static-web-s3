@@ -45,7 +45,8 @@ aws s3api --endpoint-url="$endpoint_url"  put-bucket-policy --bucket="$bucket_na
 aws s3 --endpoint-url="$endpoint_url"  website "s3://"$bucket_name"" --index-document $start_index_file  --error-document $start_index_file
 
 aws s3 --endpoint-url="$endpoint_url" sync $folder_path "s3://"$bucket_name"""/"
-
+echo " ------------------------------------------------------- "
+echo " ------------------------------------------------------- "
 echo "You can now access your static site here: $endpoint_url/$bucket_name/$start_index_file"
 echo " ------------------------------------------------------- "
 echo " ------------------------------------------------------- "

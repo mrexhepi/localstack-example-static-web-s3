@@ -1,7 +1,7 @@
 #!/bin/bash
 
 display_usage() {
-	echo "Creates a s3 bucket with web access with LocalStack"
+	echo "Delete a S3 bucket of LocalStack"
 	echo -e "\nUsage: $0 [bucket-name] [endpoint-url] \n"
 }
 
