@@ -1,8 +1,7 @@
 # Localstack example
 
-[Localstack](https://localstack.cloud/) is a fully functional local cloud stack
-        
-        Develop and test your cloud and serverless apps offline!
+[Localstack](https://localstack.cloud/) is a fully functional local cloud stack .
+             Develop and test your cloud and serverless apps offline!
 
 ##
 ## Requirements
