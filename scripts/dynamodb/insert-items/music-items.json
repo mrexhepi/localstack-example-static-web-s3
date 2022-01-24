@@ -1,0 +1,20 @@
+{
+  "Music": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Artist": { "S": "Dua Lipa" },
+          "SongTitle": { "S": "New rules" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Artist": { "S": "Rita Ora" },
+          "SongTitle": { "S": "Poison" }
+        }
+      }
+    }
+  ]
+}

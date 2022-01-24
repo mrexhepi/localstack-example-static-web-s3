@@ -1,7 +1,8 @@
 # Localstack example
 
 [Localstack](https://localstack.cloud/) is a fully functional local cloud stack
-Develop and test your cloud and serverless apps offline!
+        
+        Develop and test your cloud and serverless apps offline!
 
 ##
 ## Requirements
@@ -30,7 +31,6 @@ pip install localstack
 s3-bucket-static-website script , creates and deploy your static website to  localstack S3 bucket.
 ```bash
 bash s3-bucket-static-website.sh 
-  Creates a s3 bucket with web access with LocalStack
 
   Usage: s3-bucket-static-website.sh [bucket-name] [endpoint-url] [folder-path] [start-index-file] 
 ```
@@ -38,7 +38,7 @@ bash s3-bucket-static-website.sh
 s3-delete-bucket , it force deletes your chosen bucket even if it is not empty!!!
 ```bash
 bash scripts/s3-bucket/s3-delete-bucket.sh 
-   Creates a s3 bucket with web access with LocalStack
+  
 
    Usage: scripts/s3-bucket/s3-delete-bucket.sh [bucket-name] [endpoint-url] 
 ```
